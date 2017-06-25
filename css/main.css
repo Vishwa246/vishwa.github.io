@@ -1,0 +1,153 @@
+
+* {margin:0; padding:0; text-decoration:none; list-style:none;}
+
+.container {}
+header {width:100%;  margin:0 auto;}
+/*header ul { position:relative; margin:0 auto;}
+ul li {float:left; margin:0 10px; display:inline-block;}
+header ul li a { padding: 10px 20px; color:#fff; text-transform:uppercase;transition: 0.3s;}
+header ul li a:hover {background-color:#008b8b; }*/
+nav { width: 100%; background-color: transparent; border-bottom: 1px solid #ffffff;}
+nav:hover {background: #5D6D7E;}
+.menu {}
+#intro { background: linear-gradient( -45deg, #34B5FA, #4DFA4D); color: #2c3e50; display: block;}
+.hero {display:table; padding:40px 20px; margin:0 auto;vertical-align:middle;}
+.hero img {border-radius: 50%; margin:0 auto; display:block;  }
+h1, h2, h3, .hero p { text-align: center; }
+h1 {font-family: "EB Garamond", serif; font-size:36px; padding: 10px 0;}
+h2 {font-family: "Comic Sans MS", cursive, sans-serif font-size:24px;}
+h3 {font-family: "Comic Sans MS", cursive, sans-serif font-size:18px;} 
+.hero p {font-size:24px; padding: 5px 0; }
+.banner {display:block;}
+.hero .content {vertical-align: middle; display: table-cell; height: 450px;}
+.about {background:#34495E; padding:30px;}
+.about .content {width:90%; margin:0 auto;}
+section p {padding:10px; font-size:22px; color:#fff;}
+section p a {color:#718598;}
+section p a:hover {color:#3ccac7;}
+.skillspage {width: 100%; background:#e7e7e7;}
+.getintouch{ width:100%; background:#fff; height: 500px;}
+.form, .map {float:left; width:50%;}
+.contact {width: 60%; margin: 0 auto;}
+.mapview {padding:20px; }
+.mapview iframe {width:100%; height:300px;}
+input, textarea, button {padding:10px 5px; margin: 10px 0;}
+textarea {width:100%; background:none; border:none; border-bottom:1px solid #666;}
+input {width:50%; float:left; background:none; border:none; border-bottom:1px solid #666; }
+button {width:100%; background:none; color:#000; border:1px solid #000; border-radius:3px;}
+button:hover {background:#000; color:#fff;}
+footer {position:fixed; bottom:0; width:100%; background:#34495E;}
+footer .container { width:80%; margin:5px auto; padding:10px 0; color:#fff; }
+footer .copyright, footer .mymail {float:left; padding:0 20px; position: relative; top: 40px;}
+footer .social {float:right; display:block; width:276px;}
+footer ul li {float:left; margin:0 10px; display:inline-block;}
+footer .social li {padding:10px;}
+footer a i {color:#fff; background:#3ccac7; padding: 10px; border-radius: 50%; width: 32px; }
+footer a i:hover { background:#2c3e50; color:#e7e7e7;}
+
+.fixed {
+	position: fixed; 
+	top: 0;
+	z-index:999;
+}
+
+.hero p { white-space: nowrap; margin:0 auto; overflow: hidden; animation: type 3s steps(26, end); }
+.hero p span { animation: blink 1s infinite;}
+
+@keyframes type{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100%; } 
+} 
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+
+
+#skillspage { padding: 0px 50px 30px 50px; width: auto; position: relative;  background-color: #f8f8f8;}
+
+#skills {
+    margin-top: 0px; text-align: center; padding-top:50px; padding-bottom: 30px;}
+
+.skillbar {
+	position:relative; display:block; margin-bottom:15px; width:100%; background:#eee; height:35px;	border-radius:3px;
+	-moz-border-radius:3px;	-webkit-border-radius:3px;	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;	-ms-transition:0.4s linear;	-o-transition:0.4s linear;
+	transition:0.4s linear;	-webkit-transition-property:width, background-color;	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;	-o-transition-property:width, background-color;
+	transition-property:width, background-color;}
+
+.skillbar-title {position:absolute;	top:0;	left:0;  width:110px; font-weight:bold;	font-size:13px;	color:#ffffff;	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;	-webkit-border-bottom-left-radius:4px;	-moz-border-radius-topleft:3px;	-moz-border-radius-bottomleft:3px;	border-top-left-radius:3px;	border-bottom-left-radius:3px;}
+
+.skillbar-title span {display:block; background:rgba(0, 0, 0, 0.1);	padding:0 20px;	height:35px; line-height:35px;	-webkit-border-top-left-radius:3px;	-webkit-border-bottom-left-radius:3px;	-moz-border-radius-topleft:3px;	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {	height:35px; width:0px;	background:#6adcfa;	border-radius:3px;	-moz-border-radius:3px;	-webkit-border-radius:3px;}
+
+.skill-bar-percent {position:absolute;	right:10px;	top:0;	font-size:11px;	height:35px; line-height:35px;
+	color:#ffffff;	color:rgba(0, 0, 0, 0.4);}
+
+
+
+
+
+@media only screen and (max-width: 768px){  
+												.hero { padding:30px 0; } .form, .map {width:100%;} .contact {width:80%;}
+												footer .copyright, footer .mymail {width:100%; text-align:center; top:0; padding:0;}
+												footer .social {float:none; margin:0 auto;} .mapview {padding: 10px 0;}
+}
+
+@media only screen and (max-width: 400px){  
+											footer .copyright, footer .mymail, footer .social {width:100%; text-align:center; padding:0;}	
+}
+
+
+
+
+/* resoibsuve menu */
+
+ul.topnav { overflow: hidden; position:relative; text-align:center;}
+
+/* Float the list items side by side */
+ul.topnav li {display:inline-block;}
+
+/* Style the links inside the list items */
+ul.topnav li a { display: inline-block; text-align: center; transition: 0.3s;padding: 10px 20px; color:#fff; text-transform:uppercase;}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #008b8b;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  ul.topnav {width:100%; }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav { text-align:none;}
+  ul.topnav li {float:left;}
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
